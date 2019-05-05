@@ -2,8 +2,8 @@
 
 ## required node.js 9.5x
 
-  $ npm install
-  $ npm run dev
+  `$ npm install or yarn install`
+  `$ npm run dev`
   
   
 ### deploy to production ??
