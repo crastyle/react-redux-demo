@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "medico-h5",
+      "name": "react-redux",
       "cwd": "./",
       "script": "./server/src/index.js",
       "instances": 2,
