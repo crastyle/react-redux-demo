@@ -1,0 +1,97 @@
+@import "../../../styles/variables";
+
+
+.main {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: auto;
+  .page_title {
+      text-align: center;
+      font-size: 30px;
+      color: #222;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-weight: 700;
+  }
+  .page_content {
+      max-width: 1020px;
+      margin: auto;
+      margin-top: 50px;
+      font-size: 16px;
+      line-height: 26px;
+      color: #4d4d4d;
+      margin-bottom: 50px;
+      p {
+          margin: 16px 0;
+          a {
+              color: #9d2231;
+              font-weight: 600;
+              transition: all 0.3s;
+              &:hover {
+                  color: #83202c;
+              }
+          }
+      }
+  }
+
+.formLogin {
+  max-width: 450px;
+  margin: auto;
+  overflow: auto;
+  form {
+      .group {
+          margin-bottom: 20px;
+          input {
+              z-index: 1;
+              width: 100%;
+              padding: 12px 10px;
+              font-family: "Roboto", sans-serif;
+              font-size: 16px;
+              color: #4d4d4d;
+              background-color: #fff;
+              border: 1px solid rgba(127, 127, 127, 0.3);
+              border-radius: 3px;
+              &:focus {
+                  border-color: rgba(127, 127, 127, 0.75);
+                  outline: 0;
+              }
+          }
+          button {
+              display: inline-block;
+              color: #fff;
+              background-color: #9d2231;
+              border: 1px solid #9d2231;
+              font-weight: 700;
+              padding: 10px 16px;
+              line-height: 16px;
+              font-size: 14px;
+              border-radius: 3px;
+              transition: all 0.3s;
+              vertical-align: middle;
+              &:hover {
+                  background: #a63845;
+                  border: 1px solid #a63845;
+              }
+          }
+          .group_right {
+              display: inline-block;
+              margin-left: 20px;
+              vertical-align: middle;
+              span {
+                  display: block;
+                  font-size: 16px;
+                  a {
+                      color: #9d2231;
+                      text-decoration: none;
+                      -webkit-transition: color 0.1s ease;
+                      transition: color 0.1s ease;
+                      &:hover {
+                          color: #83202c;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+}

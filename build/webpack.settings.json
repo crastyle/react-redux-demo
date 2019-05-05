@@ -1,0 +1,6 @@
+{
+  "server": {
+    "input": "./server/src",
+    "output": "/static/assets"
+  }
+}

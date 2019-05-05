@@ -1,0 +1,20 @@
+module.exports = {
+    cart: '购物车',
+    shippingMethod: '配送方式',
+    checkOrder: '准备结算',
+    contactInfo: '联系信息',
+    rss: '订阅RSS',
+    shippingAddress:'收货地址',
+    backCart: '返回购物车',
+    continue: '去收银台',
+    allRight: '版权所有归本平台',
+    free: '免费',
+    subtotal: '小计',
+    shipping: '配送',
+    total: '总计',
+    name: '收件人',
+    tel: '收件人手机号码',
+    address: '收件地址',
+    deliveryDate: '发件日期',
+    bak: '商品备注'
+}

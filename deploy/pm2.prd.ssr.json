@@ -1,0 +1,21 @@
+{
+  "apps": [
+    {
+      "name": "react-start-prd",
+      "cwd": "./",
+      "script": "./static/assets/server.js",
+      "instances": 0,
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "watch": false,
+      "exec_mode": "cluster_mode",
+      "merge_logs": true,
+      "env": {
+        "NODE_ENV": "production",
+        "NODE_DEBUG": "request",
+        "args": ["--ignore-watch=.git|node_modules"]
+      },
+      "args": ["--color"],
+      "node_args": ["--debug=7000","--trace-deprecation"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+
+.expand {
+  height: 48px;
+  border-bottom:1px solid #c8d1e0;
+}
+.expand_btn {
+  width: 32px;
+  height: 24px;
+  border: 1px solid $color_primary;
+  line-height: 24px;
+  margin: 0 auto;
+  text-indent: 5px;
+  border-radius: 3px;
+  position: absolute;
+  right: 18px;
+  top: 10px;
+}
+.nav_link {
+  width: 100%;
+  display: block;
+}
